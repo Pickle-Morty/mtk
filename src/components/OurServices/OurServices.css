@@ -1,0 +1,12 @@
+.OurServices {
+  padding: 70px 0;
+  text-align: center;
+}
+.OurServices__title {
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+  width: 200px;
+  margin: 0 auto 50px;
+}
+

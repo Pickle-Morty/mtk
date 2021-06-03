@@ -1,0 +1,53 @@
+{
+  "name": "compania",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "material-ui": "^0.20.2",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^17.0.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-id-swiper": "^4.0.0",
+    "react-materialize": "^3.9.6",
+    "react-scripts": "^4.0.1",
+    "react-spring": "^8.0.27",
+    "start": "^5.1.0",
+    "swiper": "^6.4.8",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

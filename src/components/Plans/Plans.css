@@ -1,0 +1,389 @@
+.Plans {
+  padding-left: 212px;
+  margin-top: 110px;
+  padding-right: 75px;
+}
+.Plans h3 {
+  margin-top: 80px;
+}
+.Plans__firstCol {
+  height: 220px;
+  background: #fcfcfc;
+  /* margin-right: 30px; */
+  border: 6px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+.Plans__titleCol img {
+  width: 230px;
+}
+.Plans__secondCol {
+  height: 220px;
+  background: #115a9d;
+  /* margin-right: 30px; */
+  border: 6px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+.Plans__secondCol h3 {
+  color: white;
+}
+.Plans__thirdCol {
+  height: 220px;
+  background: #fcfcfc;
+  /* margin-right: 30px; */
+  border: 6px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+.Plans__title {
+  margin-top: 120px;
+  color: #233359;
+}
+.Plans__title img {
+  margin-top: -20px;
+}
+
+.Plans2 {
+  padding-left: 212px;
+  margin-top: 90px;
+  padding-right: 75px;
+}
+.Plans2 h3 {
+  margin-top: 80px;
+}
+.Plans__firstCol2 {
+  height: 220px;
+  background: #115a9d;
+  /* margin-right: 30px; */
+  border: 6px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+.Plans__firstCol2 h3 {
+  color: white;
+}
+.Plans__thirdCol2 h3 {
+  color: white;
+}
+.Plans__secondCol2 {
+  height: 220px;
+  background: #fcfcfc;
+  /* margin-right: 30px; */
+  border: 6px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+.Plans__thirdCol2 {
+  height: 220px;
+  background: #115a9d;
+  /* margin-right: 30px; */
+  border: 6px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+@media (max-width: 1366px) {
+  .Plans {
+    padding-left: 140px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  .Plans2 {
+    padding-left: 140px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  .Plans__titleCol h2 {
+    margin-left: -40px;
+  }
+  .Plans__titleCol img {
+    margin-left: -40px;
+  }
+  .Plans .Plans__firstCol {
+    margin-left: -30px;
+  }
+  .Plans2 .Plans__firstCol2 {
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .Plans__titleCol h2 {
+    margin-left: 30px;
+  }
+  .Plans__titleCol img {
+    margin-left: 30px;
+  }
+  .Plans .Plans__firstCol {
+    margin-left: -30px;
+  }
+  .Plans2 .Plans__firstCol2 {
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Plans__titleCol h2 {
+    margin-left: 45px;
+  }
+  .Plans__titleCol img {
+    margin-left: 45px;
+  }
+  .Plans {
+    padding-left: 90px;
+  }
+  .Plans2 {
+    padding-left: 90px;
+  }
+  .Plans .Plans__firstCol {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .Plans2 .Plans__firstCol2 {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .Plans2 .Plans__secondCol2 {
+    margin-bottom: 30px;
+  }
+  .Plans__firstCol {
+    margin-right: 0px;
+  }
+  .Plans__secondCol {
+    margin-bottom: 30px;
+  }
+
+  .Plans__thirdCol {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 870px) {
+  .Plans__titleCol h2 {
+    margin-left: 45px;
+  }
+  .Plans__titleCol img {
+    margin-left: 45px;
+  }
+  .Plans {
+    padding-left: 75px;
+  }
+  .Plans2 {
+    padding-left: 75px;
+  }
+  .Plans .Plans__firstCol {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .Plans2 .Plans__firstCol2 {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .Plans2 .Plans__secondCol2 {
+    margin-bottom: 30px;
+  }
+  .Plans__firstCol {
+    margin-right: 0px;
+  }
+  .Plans__secondCol {
+    margin-bottom: 30px;
+  }
+
+  .Plans__thirdCol {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Plans__titleCol h2 {
+    margin-left: 45px;
+  }
+  .Plans__titleCol img {
+    margin-left: 45px;
+  }
+  .Plans {
+    padding-left: 65px;
+  }
+  .Plans2 {
+    padding-left: 65px;
+  }
+  .Plans .Plans__firstCol {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .Plans2 .Plans__firstCol2 {
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .Plans2 .Plans__secondCol2 {
+    margin-bottom: 30px;
+  }
+  .Plans__firstCol {
+    margin-right: 0px;
+  }
+  .Plans__secondCol {
+    margin-bottom: 30px;
+  }
+
+  .Plans__thirdCol {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Plans__titleCol h2{
+    margin-left:100px
+  }
+  .Plans__titleCol img{
+    margin-left: 100px
+  }
+  .Plans__titleCol h2 {
+    margin-left: 100px;
+  }
+  .Plans__titleCol img {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .Plans {
+    padding-left: 70px;
+  }
+  .Plans2 {
+    padding-left: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+   .Plans {
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+  .Plans2 {
+    padding-left: 50px;
+    padding-right: 0px;
+
+  }
+  /*
+  .Plans__titleCol h2{
+    margin-left:160px
+  }
+  .Plans__titleCol img{
+    margin-left: 160px
+=======
+  } */
+  .Plans__titleCol h2 {
+    margin-left: 160px;
+  }
+  .Plans__titleCol img {
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Plans__titleCol h2 {
+    margin-left: 170px;
+  }
+  .Plans__titleCol img {
+    margin-left: 170px;
+  }
+}
+@media (max-width: 520px) {
+  .Plans__titleCol h2 {
+    margin-left: 140px;
+  }
+  .Plans__titleCol img {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 470px) {
+  .Plans__titleCol h2 {
+    margin-left: 100px;
+  }
+  .Plans__titleCol img {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 410px) {
+  .Plans__titleCol h2 {
+    margin-left: 90px;
+  }
+  .Plans__titleCol img {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 400px) {
+  .Plans {
+    padding-left: 50px;
+    padding-right: 0px;
+    
+  }
+  .Plans2 {
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 370px) {
+  .Plans__titleCol h2 {
+    margin-left: 70px;
+  }
+  .Plans__titleCol img {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 320px) {
+  .Plans__titleCol h2 {
+    margin-left: 40px;
+  }
+  .Plans__titleCol img {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+.Plans__titleCol h2{
+  margin-left:170px
+}
+.Plans__titleCol img{
+  margin-left: 170px
+}
+}
+@media (max-width: 520px) {
+  .Plans__titleCol h2{
+    margin-left:140px
+  }
+  .Plans__titleCol img{
+    margin-left: 140px
+  }
+  }
+  @media (max-width: 470px) {
+    .Plans__titleCol h2{
+      margin-left:100px
+    }
+    .Plans__titleCol img{
+      margin-left: 100px
+    }
+    }
+    @media (max-width: 410px) {
+      .Plans__titleCol h2{
+        margin-left:90px
+      }
+      .Plans__titleCol img{
+        margin-left: 90px
+      }
+      }
+      @media (max-width: 370px) {
+        .Plans__titleCol h2{
+          margin-left:70px
+        }
+        .Plans__titleCol img{
+          margin-left: 70px
+        }
+        }
+        @media (max-width: 320px) {
+          .Plans__titleCol h2{
+            margin-left:40px
+          }
+          .Plans__titleCol img{
+            margin-left: 40px
+          }
+          }

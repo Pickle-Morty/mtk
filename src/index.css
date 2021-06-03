@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Spectral SC';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.index{
+  /* margin-right: -20px; */
+}
+.main__container {
+  width: 100%;
+  padding: 0 165px;
+}

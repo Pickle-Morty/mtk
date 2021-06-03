@@ -1,0 +1,26 @@
+.WhyWeGotChosen p {
+  font-size: 16px;
+  color: #233359;
+}
+.WhyWeGotChosen h5 {
+  color: #233359;
+}
+.WhyWeGotChosen__titlerow {
+  color: #233359;
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+.WhyWeGotChosen__text1row {
+  margin-bottom: 30px;
+}
+.WhyWeGotChosen {
+  margin-bottom: 110px;
+}
+.WhyWeGotChosen__titletext h2 {
+  text-align: center;
+}
+
+@media (max-width: 870px) {
+  .WhyWeGotChosen__titletext {
+  }
+}
