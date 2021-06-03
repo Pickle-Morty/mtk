@@ -28,20 +28,16 @@
 .Plans__secondCol h3 {
   color: white;
 }
-.Plans__thirdCol {
-  height: 220px;
-  background: #fcfcfc;
-  /* margin-right: 30px; */
-  border: 6px solid rgba(0, 0, 0, 0.02);
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-}
+
 .Plans__title {
-  margin-top: 120px;
+  display: block;
+  width: min-content;
+  margin: 0 auto;
   color: #233359;
 }
-.Plans__title img {
-  margin-top: -20px;
+
+.Plans__title h2 {
+  border-bottom: 1px solid #000;  
 }
 
 .Plans2 {

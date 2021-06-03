@@ -10,7 +10,7 @@ import Tases from '../Cases/Cases';
 import Products from '../Products/Products';
 import Application from '../Application/Application';
 import Footer from '../Footer/Footer';
-
+import Plans from '../Plans/Plans'
 import QualityControl from '../QualityControl/QualityControl';
 import WhyWeGotChosen from '../WhyWeGotChosen/WhyWeGotChosen';
 import './Main.css';
@@ -26,6 +26,7 @@ function Main() {
         <QualityControl />
         <GoodsDelivery />
         <OurServices />
+        <Plans/>
         <WhyWeGotChosen />
         {/* <Ofice /> */}
         {/* <PraiMatch /> */}

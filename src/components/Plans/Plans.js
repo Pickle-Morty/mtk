@@ -15,8 +15,8 @@ const Plans = () => {
           sm={{ offset: 2, span: 9 }}
           className="Plans__titleCol"
         >
-          <h2></h2>
-          <img src={PlansImg} />
+          <h2>Наши планы</h2>
+        
         </Col>
       </Row>
       <Row className="Plans" style={{ width: '100%' }}>
@@ -35,8 +35,8 @@ const Plans = () => {
         </Col>
 
         <Col
-          xl={{ offset: 1, span: 4 }}
-          lg={{ offset: 1, span: 4 }}
+          xl={{ offset: 2, span: 6 }}
+          lg={{ offset: 2, span: 4 }}
           md={{ span: 11 }}
           sm={{ span: 11 }}
           xs={{ span: 12 }}
@@ -70,8 +70,8 @@ const Plans = () => {
         </Col>
 
         <Col
-          xl={{ offset: 1, span: 4 }}
-          lg={{ offset: 1, span: 4  }}
+          xl={{ offset: 2, span: 4 }}
+          lg={{ offset: 2, span: 4  }}
           md={{ span: 11 }}
           sm={{ span: 11 }}
           xs={{ span: 12 }}
