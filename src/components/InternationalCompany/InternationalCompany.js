@@ -1,6 +1,6 @@
 import React from 'react';
 
-import International from './Map3.png';
+import International from './Map3.1.png';
 import rightArrow from './right-arrow.svg';
 import './InternationalCompany.css';
 import { Col, Row } from 'react-bootstrap';
@@ -8,7 +8,8 @@ import { Spring } from 'react-spring/renderprops';
 
 const InternationalCompany = () => {
   return (
-    <>
+
+    <section id="InternationalSection">
       <Row className="International">
         <Col
           xl={{ offset: 1, span: 4 }}
@@ -36,8 +37,7 @@ const InternationalCompany = () => {
 
           <div className="International__button">
             <button>
-              <h3>Оформить заявку</h3>
-              <img src={rightArrow} />
+              Оформить заказ
             </button>
           </div>
         </Col>
@@ -68,7 +68,8 @@ const InternationalCompany = () => {
           </p>
         </Col>
       </Row>
-    </>
+    </section>
+
   );
 };
 

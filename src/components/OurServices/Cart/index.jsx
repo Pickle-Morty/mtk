@@ -1,6 +1,9 @@
 import React from "react";
+import CartImg from "./image/1.jpg";
 import ScrollAnimation from 'react-animate-on-scroll';
 import "./Cart.css";
+
+
 
 const Cart = (props) => {
     const showContent = () => {
@@ -17,7 +20,13 @@ const Cart = (props) => {
                 animateOnce="true"
                 delay={500}
             >
-                <p>{props.title}</p>
+                <img className="cartImg" src={props.path} />
+                <div className="cartFilter"></div>
+                <div className="cartContent">
+                    <p className="cartText">{props.title}</p>
+                </div>
+
+
             </ScrollAnimation>
         </div>
     )

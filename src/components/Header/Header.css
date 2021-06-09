@@ -18,11 +18,17 @@
   margin-left: 150px;
 }
 
-.Header__toolbar h4 {
+.Header__link {
   margin-left: 35px;
   margin-top: 48px;
   color: #485d90;
+  font-size: 1.3rem;
 }
+
+.Header__link:hover {
+  text-decoration: none;
+}
+
 .Header__language {
   display: flex;
   flex-direction: column;

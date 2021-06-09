@@ -9,7 +9,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const HandleQuery = () => {
   return (
     <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true">
-      <div className="MainHandleQuery">
+      <div className="MainHandleQuery" id="MainHandleQuery">
         <Row className="HandleQuery">
           <Col
             lg={{ span: 12 }}

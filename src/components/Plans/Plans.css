@@ -3,43 +3,43 @@
   margin-top: 110px;
   padding-right: 75px;
 }
+.Plans__card {
+  height: 350px;
+  background: #fcfcfc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+.Plan__text {
+  font-size: calc(18px + 6 * (100vw/1230));
+}
 .Plans h3 {
   margin-top: 80px;
 }
 .Plans__firstCol {
   height: 220px;
   background: #fcfcfc;
-  /* margin-right: 30px; */
-  border: 6px solid rgba(0, 0, 0, 0.02);
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border:none;
+  box-shadow: none;
   border-radius: 12px;
-}
-.Plans__titleCol img {
-  width: 230px;
+  display: flex;
+  align-items: center;
 }
 .Plans__secondCol {
-  height: 220px;
-  background: #115a9d;
-  /* margin-right: 30px; */
-  border: 6px solid rgba(0, 0, 0, 0.02);
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  height: 350px;
   border-radius: 12px;
 }
 .Plans__secondCol h3 {
   color: white;
 }
-
 .Plans__title {
   display: block;
-  width: min-content;
+  width: max-content;
   margin: 0 auto;
+  padding: 0 10px;
   color: #233359;
+  border-bottom: 2px solid #233359;  
 }
-
-.Plans__title h2 {
-  border-bottom: 1px solid #000;  
-}
-
 .Plans2 {
   padding-left: 212px;
   margin-top: 90px;
@@ -50,10 +50,10 @@
 }
 .Plans__firstCol2 {
   height: 220px;
-  background: #115a9d;
-  /* margin-right: 30px; */
-  border: 6px solid rgba(0, 0, 0, 0.02);
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  background-size: cover;
+  height: 350px;
+  border:none;
+  box-shadow: none;
   border-radius: 12px;
 }
 .Plans__firstCol2 h3 {
@@ -65,19 +65,36 @@
 .Plans__secondCol2 {
   height: 220px;
   background: #fcfcfc;
-  /* margin-right: 30px; */
-  border: 6px solid rgba(0, 0, 0, 0.02);
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
+  display: flex;
+  align-items: center;
 }
-.Plans__thirdCol2 {
-  height: 220px;
-  background: #115a9d;
-  /* margin-right: 30px; */
-  border: 6px solid rgba(0, 0, 0, 0.02);
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+.Plans__card {
+  height: 350px!important;
   border-radius: 12px;
+  display: flex;
+  align-items: center;
 }
+
+/* images */
+
+.Plans__img1 {
+  background: url('./img/3.jpg');
+  background-size: cover;
+
+} 
+.Plans__img2 {
+  background: url('./img/3.jpg');
+  background-size: cover;
+} 
+.Plans__img3 {
+  background: url('./img/4.jpg');
+  background-size: cover;
+} 
+.Plans__img4 {
+  background: url('./img/1.jpg');
+  background-size: cover;
+} 
+
 @media (max-width: 1366px) {
   .Plans {
     padding-left: 140px;
@@ -227,6 +244,11 @@
 }
 
 @media (max-width: 768px) {
+  .Plans { 
+    flex-direction: column-reverse;
+  }
+
+
   .Plans__titleCol h2{
     margin-left:100px
   }
@@ -259,14 +281,6 @@
     padding-right: 0px;
 
   }
-  /*
-  .Plans__titleCol h2{
-    margin-left:160px
-  }
-  .Plans__titleCol img{
-    margin-left: 160px
-=======
-  } */
   .Plans__titleCol h2 {
     margin-left: 160px;
   }
@@ -309,7 +323,7 @@
 }
 @media (max-width: 400px) {
   .Plans {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 0px;
     
   }
@@ -374,6 +388,7 @@
         .Plans__titleCol img{
           margin-left: 70px
         }
+
         }
         @media (max-width: 320px) {
           .Plans__titleCol h2{

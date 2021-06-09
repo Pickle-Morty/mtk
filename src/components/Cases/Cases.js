@@ -23,7 +23,7 @@ function Cases() {
         <div className="cases_title2">
                 <span className="cases_span">Мы организовываем полный цикл производства на китайских фабриках.</span>
         </div> */}
-      <div className="cases-div"></div>
+    
     </>
   );
 }

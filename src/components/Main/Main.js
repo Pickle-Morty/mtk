@@ -28,11 +28,8 @@ function Main() {
         <OurServices />
         <Plans/>
         <WhyWeGotChosen />
-        {/* <Ofice /> */}
-        {/* <PraiMatch /> */}
         <div style={{ marginRight: -23 }}>
           <Tases />
-          <Products />
           <Application />
           <Footer />
         </div>

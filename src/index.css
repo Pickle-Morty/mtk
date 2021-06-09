@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200;300&display=swap');
+@import "./Fonts/fonts.css";
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./Fonts/roboto-regular-webfont.woff2') format('woff2'),
+      url('./Fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 body {
   margin: 0;
-  font-family: 'Spectral SC';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'robotoregular'!important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'robotoregular';
 }
-.index{
-  /* margin-right: -20px; */
-}
+
 .main__container {
   width: 100%;
-  padding: 0 165px;
+  padding: 0 7%;
+}
+
+* {
+  box-sizing: border-box;
 }

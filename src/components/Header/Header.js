@@ -31,9 +31,11 @@ const Header = () => {
             md={{ offset: 1, span: 6 }}
             className="Header__toolbar"
           >
-            <h4>Услуги</h4>
-            <h4>О нас</h4>
-            <h4>Контакты</h4>
+          
+            <a href="#OurServices" className="Header__link">Услуги</a>
+            <a href="#MainHandleQuery" className="Header__link">О нас</a>
+            <a href="#Footer" className="Header__link">Контакты</a>
+           
           </Col>
           <Col
             xl={{ offset: 1, span: 1 }}

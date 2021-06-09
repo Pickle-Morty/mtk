@@ -22,8 +22,8 @@ const WhyWeGotChosen = () => {
         <Col
           lg={{ offset: 2, span: 3 }}
           md={{ offset: 2, span: 9 }}
-          sm={{ offset: 2, span: 9 }}
-          xs={{ offset: 2, span: 9 }}
+          sm={{ offset: 2, span: 10 }}
+          xs={{ offset: 2, span: 11 }}
           className="WhyWeGotChosen__text1row__firstblock"
         >
           <h5>Собственный офис и склад в Китае</h5>
@@ -36,8 +36,8 @@ const WhyWeGotChosen = () => {
         <Col
           lg={{ offset: 2, span: 3 }}
           md={{ offset: 2, span: 9 }}
-          sm={{ offset: 2, span: 9 }}
-          xs={{ offset: 2, span: 9 }}
+          sm={{ offset: 2, span: 10 }}
+          xs={{ offset: 2, span: 11 }}
           className="WhyWeGotChosen__text1row__secondblock"
         >
           <h5>Собственный офис и склад в Китае</h5>
@@ -52,8 +52,8 @@ const WhyWeGotChosen = () => {
         <Col
           lg={{ offset: 2, span: 3 }}
           md={{ offset: 2, span: 9 }}
-          sm={{ offset: 2, span: 9 }}
-          xs={{ offset: 2, span: 9 }}
+          sm={{ offset: 2, span: 10 }}
+          xs={{ offset: 2, span: 11 }}
           className="WhyWeGotChosen__text1row__firstblock"
         >
           <h5>Собственный офис и склад в Китае</h5>
@@ -66,8 +66,8 @@ const WhyWeGotChosen = () => {
         <Col
           lg={{ offset: 2, span: 3 }}
           md={{ offset: 2, span: 9 }}
-          sm={{ offset: 2, span: 9 }}
-          xs={{ offset: 2, span: 9 }}
+          sm={{ offset: 2, span: 10 }}
+          xs={{ offset: 2, span: 11 }}
           className="WhyWeGotChosen__text1row__secondblock"
         >
           <h5>Собственный офис и склад в Китае</h5>

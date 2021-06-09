@@ -1,31 +1,26 @@
 .International {
   display: flex;
   flex-direction: row;
-
   width:100%;
-
   width: 100%;
 
 }
 
 .International__button button {
-  width: 288px;
-  height: 44px;
+  color: white;
+  padding: 12px 45px;
   left: 120px;
   margin-top: 30px;
   border: 0;
   outline: 0;
-  background: #04b6b3;
+  background: #115A9D;
   border-radius: 70px;
   z-index: 0;
 }
 .International__button button img {
   width: 36.57px;
   height: 18px;
-  /* left: 353px; */
   margin-top: -37px;
-  /* color: black;
-  border: 3px solid black; */
   z-index: 1;
   margin-left: 230px;
   margin-bottom: 23px;
@@ -40,9 +35,6 @@
 }
 .International__text {
   margin-top: 250px;
-  /* margin-left: 120px; */
-  /* margin-right: 70px; */
-
 }
 .International__text p {
   color: #6077ad;
@@ -103,6 +95,11 @@
   }
   .International {
     margin-top: -60px;
+    flex-direction: column-reverse;
+  }
+  .International__text {
+    margin-top: 100px;
+    z-index: 0;
   }
 }
 
@@ -168,6 +165,7 @@
   .International__img img {
     height: 130px;
     margin-left: 15px;
+    padding-left: 0;
   }
   .my-element {
     font-size: 29px;
