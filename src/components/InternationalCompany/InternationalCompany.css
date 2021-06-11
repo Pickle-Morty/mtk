@@ -89,9 +89,10 @@
 
 @media (max-width: 993px) {
   .International__img img {
-    height: 180px;
+    height: 280px;
     margin-top: 130px;
-    margin-left: 65px;
+    margin-left: 0;
+    padding: 0;
   }
   .International {
     margin-top: -60px;
@@ -108,9 +109,7 @@
     font-size: 27px;
   }
   .International__img img {
-    height: 180px;
-    margin-top: 130px;
-    margin-left: 50px;
+    height: 240px;
   }
   .International{
     width: 100%;
@@ -119,6 +118,9 @@
 @media (max-width: 550px) {
   .International__secondtext p {
     font-size: 24px;
+  }
+  .International__img img {
+    margin-left: 50px;
   }
   .International__text {
     margin-top: 190px;
@@ -174,17 +176,7 @@
     color: #6077ad;
     font-size: 17px;
   }
-  .International__button button {
-    width: 240px;
-    height: 44px;
-    left: 120px;
-    margin-top: 30px;
-    border: 0;
-    outline: 0;
-    background: #04b6b3;
-    border-radius: 70px;
-    z-index: 0;
-  }
+ 
   .International__button button h3 {
     color: white;
     margin-top: 9.5px;

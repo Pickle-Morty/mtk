@@ -10,3 +10,7 @@
   margin: 0 auto 50px;
 }
 
+.OurService__row {
+  display: flex;
+  flex-wrap: wrap;
+}

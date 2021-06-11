@@ -27,7 +27,6 @@ function Main() {
         <GoodsDelivery />
         <OurServices />
         <Plans/>
-        <WhyWeGotChosen />
         <div style={{ marginRight: -23 }}>
           <Tases />
           <Application />

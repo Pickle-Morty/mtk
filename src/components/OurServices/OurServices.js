@@ -17,12 +17,12 @@ const OurServices = () => {
   const [show, setShow] = useState(false);
   const [content, setContent] = useState("");
   const titles = [
-    {text: "Маркировка товаров", imgPath: CartImg1},
-    {text: "Поставка оборудования", imgPath: CartImg2},
-    {text: "Технический импортер", imgPath: CartImg3},
-    {text: "Техническая поддержка на производствах", imgPath: CartImg4},
-    {text: "Услуги бухгалтерского учета", imgPath: CartImg5},
-    {text: "Оптимизируем налогообложение", imgPath: CartImg6 },
+    { text: "Маркировка товаров", imgPath: CartImg1 },
+    { text: "Поставка оборудования", imgPath: CartImg2 },
+    { text: "Технический импортер", imgPath: CartImg3 },
+    { text: "Техническая поддержка на производствах", imgPath: CartImg4 },
+    { text: "Услуги бухгалтерского учета", imgPath: CartImg5 },
+    { text: "Оптимизируем налогообложение", imgPath: CartImg6 },
   ];
   const description = [
     "Организуем процесс маркировки в другой стране на производстве, передаем вам маркированный товар в соответствии с законодательством РФ",
@@ -32,11 +32,11 @@ const OurServices = () => {
     "Осуществляем маркировку товаров из Китая и Турции на таможенных складах, находящихся в Кыргызстане",
     "Помогаем оптимизировать налогообложение при экспорте товаров из - за границы",
   ];
-  
 
 
 
-  
+
+
 
   const showContent = (index) => {
     setContent(description[index])
@@ -46,9 +46,9 @@ const OurServices = () => {
     <section className="OurServices" id="OurServices">
       <div className="main__container">
         <p className="OurServices__title">Наши Услуги</p>
-        <Row>
+        <div className="OurService__row">
           {titles.map((item, index) => <Cart title={item.text} path={item.imgPath} index={index} blue={index % 2 !== 0 ? true : false} setContent={showContent} setShow={setShow} />)}
-        </Row>
+        </div>
         <Modal show={show} setShow={setShow}>
           <p>{content}</p>
         </Modal>

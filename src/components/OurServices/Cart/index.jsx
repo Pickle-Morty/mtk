@@ -18,9 +18,11 @@ const Cart = (props) => {
             <ScrollAnimation
                 animateIn="animate__fadeInDown"
                 animateOnce="true"
-                delay={500}
+                delay={10}
             >
-                <img className="cartImg" src={props.path} />
+                <div className="cart__wrapper">
+                    <img className="cartImg" src={props.path} />
+                </div>
                 <div className="cartFilter"></div>
                 <div className="cartContent">
                     <p className="cartText">{props.title}</p>

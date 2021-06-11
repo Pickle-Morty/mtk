@@ -1,400 +1,46 @@
-.Plans {
-  padding-left: 212px;
-  margin-top: 110px;
-  padding-right: 75px;
-}
-.Plans__card {
-  height: 350px;
-  background: #fcfcfc;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-}
-.Plan__text {
-  font-size: calc(18px + 6 * (100vw/1230));
-}
-.Plans h3 {
-  margin-top: 80px;
-}
-.Plans__firstCol {
-  height: 220px;
-  background: #fcfcfc;
-  border:none;
-  box-shadow: none;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-}
-.Plans__secondCol {
-  height: 350px;
-  border-radius: 12px;
-}
-.Plans__secondCol h3 {
-  color: white;
-}
 .Plans__title {
-  display: block;
-  width: max-content;
-  margin: 0 auto;
-  padding: 0 10px;
-  color: #233359;
-  border-bottom: 2px solid #233359;  
+  margin: 0 auto 20px;
 }
-.Plans2 {
-  padding-left: 212px;
-  margin-top: 90px;
-  padding-right: 75px;
+
+.Plans__wrapper1, .Plans__wrapper2 {
+  display: flex;
 }
-.Plans2 h3 {
-  margin-top: 80px;
+
+.Plans__wrapper2 {
+  flex-direction: row-reverse;
 }
-.Plans__firstCol2 {
-  height: 220px;
-  background-size: cover;
+
+.Plans__col {
   height: 350px;
-  border:none;
-  box-shadow: none;
-  border-radius: 12px;
-}
-.Plans__firstCol2 h3 {
-  color: white;
-}
-.Plans__thirdCol2 h3 {
-  color: white;
-}
-.Plans__secondCol2 {
-  height: 220px;
-  background: #fcfcfc;
+  width: 50%;
   display: flex;
   align-items: center;
-}
-.Plans__card {
-  height: 350px!important;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
+  position: relative;
+  margin: 20px;
 }
 
-/* images */
-
-.Plans__img1 {
-  background: url('./img/3.jpg');
-  background-size: cover;
-
-} 
-.Plans__img2 {
-  background: url('./img/3.jpg');
-  background-size: cover;
-} 
-.Plans__img3 {
-  background: url('./img/4.jpg');
-  background-size: cover;
-} 
-.Plans__img4 {
-  background: url('./img/1.jpg');
-  background-size: cover;
-} 
-
-@media (max-width: 1366px) {
-  .Plans {
-    padding-left: 140px;
-    padding-right: 0px;
-    margin-right: 0px;
-  }
-  .Plans2 {
-    padding-left: 140px;
-    padding-right: 0px;
-    margin-right: 0px;
-  }
-  .Plans__titleCol h2 {
-    margin-left: -40px;
-  }
-  .Plans__titleCol img {
-    margin-left: -40px;
-  }
-  .Plans .Plans__firstCol {
-    margin-left: -30px;
-  }
-  .Plans2 .Plans__firstCol2 {
-    margin-left: -30px;
-  }
+.PlansImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
-@media (max-width: 1199px) {
-  .Plans__titleCol h2 {
-    margin-left: 30px;
-  }
-  .Plans__titleCol img {
-    margin-left: 30px;
-  }
-  .Plans .Plans__firstCol {
-    margin-left: -30px;
-  }
-  .Plans2 .Plans__firstCol2 {
-    margin-left: -30px;
-  }
+.plan__text {
+  margin: 0 20px;
+  font-size: calc(16px + 8 * (100vw/1920));
 }
 
 @media (max-width: 992px) {
-  .Plans__titleCol h2 {
-    margin-left: 45px;
-  }
-  .Plans__titleCol img {
-    margin-left: 45px;
-  }
-  .Plans {
-    padding-left: 90px;
-  }
-  .Plans2 {
-    padding-left: 90px;
-  }
-  .Plans .Plans__firstCol {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  .Plans2 .Plans__firstCol2 {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  .Plans2 .Plans__secondCol2 {
-    margin-bottom: 30px;
-  }
-  .Plans__firstCol {
-    margin-right: 0px;
-  }
-  .Plans__secondCol {
-    margin-bottom: 30px;
-  }
-
-  .Plans__thirdCol {
-    margin-left: 0px;
-  }
-}
-
-@media (max-width: 870px) {
-  .Plans__titleCol h2 {
-    margin-left: 45px;
-  }
-  .Plans__titleCol img {
-    margin-left: 45px;
-  }
-  .Plans {
-    padding-left: 75px;
-  }
-  .Plans2 {
-    padding-left: 75px;
-  }
-  .Plans .Plans__firstCol {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  .Plans2 .Plans__firstCol2 {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  .Plans2 .Plans__secondCol2 {
-    margin-bottom: 30px;
-  }
-  .Plans__firstCol {
-    margin-right: 0px;
-  }
-  .Plans__secondCol {
-    margin-bottom: 30px;
-  }
-
-  .Plans__thirdCol {
-    margin-left: 0px;
-  }
-}
-
-@media (max-width: 800px) {
-  .Plans__titleCol h2 {
-    margin-left: 45px;
-  }
-  .Plans__titleCol img {
-    margin-left: 45px;
-  }
-  .Plans {
-    padding-left: 65px;
-  }
-  .Plans2 {
-    padding-left: 65px;
-  }
-  .Plans .Plans__firstCol {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  .Plans2 .Plans__firstCol2 {
-    margin-left: 0px;
-    margin-bottom: 30px;
-  }
-  .Plans2 .Plans__secondCol2 {
-    margin-bottom: 30px;
-  }
-  .Plans__firstCol {
-    margin-right: 0px;
-  }
-  .Plans__secondCol {
-    margin-bottom: 30px;
-  }
-
-  .Plans__thirdCol {
-    margin-left: 0px;
-  }
-}
-
-@media (max-width: 768px) {
-  .Plans { 
+  .Plans__wrapper2, .Plans__wrapper1 {
     flex-direction: column-reverse;
   }
-
-
-  .Plans__titleCol h2{
-    margin-left:100px
-  }
-  .Plans__titleCol img{
-    margin-left: 100px
-  }
-  .Plans__titleCol h2 {
-    margin-left: 100px;
-  }
-  .Plans__titleCol img {
-    margin-left: 100px;
+  .Plans__col {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px;
   }
 }
-@media (max-width: 700px) {
-  .Plans {
-    padding-left: 70px;
-  }
-  .Plans2 {
-    padding-left: 70px;
-  }
-}
-
-@media (max-width: 575px) {
-   .Plans {
-    padding-left: 50px;
-    padding-right: 0px;
-  }
-  .Plans2 {
-    padding-left: 50px;
-    padding-right: 0px;
-
-  }
-  .Plans__titleCol h2 {
-    margin-left: 160px;
-  }
-  .Plans__titleCol img {
-    margin-left: 160px;
-  }
-}
-
-@media (max-width: 575px) {
-  .Plans__titleCol h2 {
-    margin-left: 170px;
-  }
-  .Plans__titleCol img {
-    margin-left: 170px;
-  }
-}
-@media (max-width: 520px) {
-  .Plans__titleCol h2 {
-    margin-left: 140px;
-  }
-  .Plans__titleCol img {
-    margin-left: 140px;
-  }
-}
-@media (max-width: 470px) {
-  .Plans__titleCol h2 {
-    margin-left: 100px;
-  }
-  .Plans__titleCol img {
-    margin-left: 100px;
-  }
-}
-@media (max-width: 410px) {
-  .Plans__titleCol h2 {
-    margin-left: 90px;
-  }
-  .Plans__titleCol img {
-    margin-left: 90px;
-  }
-}
-@media (max-width: 400px) {
-  .Plans {
-    padding-left: 30px;
-    padding-right: 0px;
-    
-  }
-  .Plans2 {
-    padding-left: 50px;
-    padding-right: 0px;
-  }
-}
-@media (max-width: 370px) {
-  .Plans__titleCol h2 {
-    margin-left: 70px;
-  }
-  .Plans__titleCol img {
-    margin-left: 70px;
-  }
-}
-@media (max-width: 320px) {
-  .Plans__titleCol h2 {
-    margin-left: 40px;
-  }
-  .Plans__titleCol img {
-    margin-left: 40px;
-  }
-}
-
-@media (max-width: 575px) {
-.Plans__titleCol h2{
-  margin-left:170px
-}
-.Plans__titleCol img{
-  margin-left: 170px
-}
-}
-@media (max-width: 520px) {
-  .Plans__titleCol h2{
-    margin-left:140px
-  }
-  .Plans__titleCol img{
-    margin-left: 140px
-  }
-  }
-  @media (max-width: 470px) {
-    .Plans__titleCol h2{
-      margin-left:100px
-    }
-    .Plans__titleCol img{
-      margin-left: 100px
-    }
-    }
-    @media (max-width: 410px) {
-      .Plans__titleCol h2{
-        margin-left:90px
-      }
-      .Plans__titleCol img{
-        margin-left: 90px
-      }
-      }
-      @media (max-width: 370px) {
-        .Plans__titleCol h2{
-          margin-left:70px
-        }
-        .Plans__titleCol img{
-          margin-left: 70px
-        }
-
-        }
-        @media (max-width: 320px) {
-          .Plans__titleCol h2{
-            margin-left:40px
-          }
-          .Plans__titleCol img{
-            margin-left: 40px
-          }
-          }

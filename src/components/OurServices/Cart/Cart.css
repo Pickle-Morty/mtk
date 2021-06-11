@@ -1,17 +1,12 @@
 .ourServices__Cart {
     background: #fcfcfc;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 12px;
     margin: 0 auto 20px;
     width: 300px;
     padding: 0 ;
     cursor: pointer;
     overflow: hidden;
     position: relative;
-
     font-size: 18px;
-  
-
 }
 
 .cartFilter {
@@ -22,21 +17,23 @@
     top: 0;
     background: rgba(0, 0, 0, 0.3);
     display: none;
+    
 }
 
-.ourServices__Cart:hover {
-    background: #115a9d;
-    color: white;
-}
-
-.ourServices__Cart:hover .cartFilter {
+/* .ourServices__Cart:hover { */
+    /* background: #115a9d; */
+    /* color: white; */
+/* } */
+/*  */
+.ourServices__Cart:hover  {
     display: block;
 }
 
 .cartContent {
     display: flex;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 70px;
     padding: 5px 20px;
 }
@@ -44,13 +41,17 @@
 .cartText {
     display: block;
     margin: 0;
+   
     
 }
-
+.cart__wrapper {
+    height: 180px;
+}
 
 .cartImg {
     display: block;
     width: 100%;
-    height: 180px;
+    height: 100%;
+    object-fit: cover;
 }
 
